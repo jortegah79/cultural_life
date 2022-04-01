@@ -10,12 +10,10 @@ header,
 footer,
 .contenido-principal,
 .header-title,
-.header-navbar-pages,
-.header-navbar-login,
-.header-navbar-login li,
+.header-navbar,
+.header-navbar li,
 .articulos,
 .footer-navbar-links,
-.header-navbar-buscar,
 .footer-title {
     display: flex;
     flex-direction: row;
@@ -28,7 +26,7 @@ aside,
 nav,
 main,
 .nav-aside,
-.header-navbar,
+.buscador,
 .footer-contacto {
     display: flex;
     flex-direction: column;
@@ -43,22 +41,11 @@ header {
     align-items: center;
 }
 
-.header-navbar-buscar {
-    justify-content: flex-end;
-    margin-top: 10px;
-}
-
 .header-navbar {
     align-items: center;
     padding: 20px;
 }
 
-.header-navbar-login {
-    justify-content: center;
-    align-items: center;
-}
-
-.menu,
 .publi2 {
     display: none;
 }
@@ -129,7 +116,7 @@ figure img {
 
 footer {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .footer-navbar-links {
@@ -145,29 +132,7 @@ footer {
     align-items: flex-end;
 }
 
-
-/*AQUI IRAN LAS MEDIA QUERYS*/
-
-
-/*BORDERS PARA COLOCAR TODO. */
-
-.rosa {
-    border: 5px solid pink;
-}
-
-.verde {
-    border: 5px solid green;
-}
-
-.azul {
-    border: 5px solid blue;
-}
-
-.rojo {
-    border: 5px solid red;
-}
-
-@media screen and (max-width:1530px) {
+@media (max-width:1530px) {
     article {
         width: 90%;
     }
@@ -175,21 +140,12 @@ footer {
 
 @media (max-width:1200px) {
     header {
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
     }
     .formulario {
         display: flex;
         flex-direction: row;
-    }
-    .header-navbar {
-        flex-direction: column;
-    }
-    .header-navbar-links {
-        order: 2;
-    }
-    .header-navbar-buscar {
-        order: 1;
     }
     footer {
         flex-direction: column;
@@ -202,7 +158,7 @@ footer {
         margin-left: 15px;
     }
     .footer-title {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 
@@ -213,11 +169,10 @@ footer {
     header {
         flex-direction: column;
     }
-    .header-navbar {
+    .header-title {
         flex-direction: row;
-        flex-wrap: wrap-reverse;
-        justify-content: flex-end;
-        align-items: center;
+        width: 100%;
+        ;
     }
     main {
         width: 80%;
@@ -249,16 +204,11 @@ footer {
         flex-direction: column;
     }
     header {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     .header-navbar {
-        display: none;
-    }
-    .menu {
-        display: flex;
-    }
-    .header-title {
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
