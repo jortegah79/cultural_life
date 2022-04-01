@@ -173,7 +173,7 @@ footer {
     }
 }
 
-@media screen and (max-width:1200px) {
+@media (max-width:1200px) {
     header {
         flex-direction: row;
         align-items: flex-start;
@@ -206,7 +206,7 @@ footer {
     }
 }
 
-@media screen and (max-width:992px) {
+@media (max-width:992px) {
     .footer-contacto {
         flex-direction: column;
     }
@@ -244,7 +244,7 @@ footer {
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .footer-title {
         flex-direction: column;
     }
