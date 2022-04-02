@@ -98,19 +98,19 @@ body {
 }
 
 h1 {
-    font-size: 50px;
-}
-
-h2 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 34px;
+}
+
 h3 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 25px;
 }
 
 p {
@@ -118,7 +118,7 @@ p {
 }
 
 a {
-    font-size: 20px;
+    font-size: 18 px;
     font-weight: 600;
     text-decoration: none;
     color: #0806a3;
@@ -171,19 +171,6 @@ li {
     width: 180px;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
 .icono {
     width: 40px;
 }
@@ -193,7 +180,7 @@ li {
 }
 
 .web-icono {
-    width: 100px;
+    width: 60px;
     margin-right: 20px;
 }
 
