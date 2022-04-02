@@ -13,6 +13,7 @@ footer,
 .header-navbar,
 .header-navbar li,
 .articulos,
+.formulario,
 .footer-navbar-links,
 .footer-title {
     display: flex;
@@ -54,14 +55,15 @@ header {
 /*NAVEGACION Y PUBLICIDAD EN EL CONTENIDO PRINCIPAL*/
 
 #contenido-principal {
+    width: 95%;
     justify-content: flex-end;
+    margin: 0 auto;
     text-align: justify;
 }
 
-nav,
-aside {
-    width: 20%;
-    min-width: 240px;
+.nav-aside {
+    width: 25%;
+    min-width: 260px;
 }
 
 nav div,
@@ -79,10 +81,10 @@ nav div,
 
 main {
     padding-top: 20px;
-    width: 80%;
+    width: 95%;
     text-align: justify;
     min-height: calc(100vh - 200px);
-    margin: 0 10px;
+    margin: 0 auto;
 }
 
 main h2,
@@ -92,8 +94,8 @@ main figure {
 }
 
 article {
-    width: 45%;
-    min-width: 600px;
+    width: 50%;
+    min-width: 500px;
     margin: 20px auto;
 }
 
@@ -107,7 +109,8 @@ figure img {
 }
 
 .articulos {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
 
@@ -121,6 +124,7 @@ footer {
 
 .footer-navbar-links {
     justify-content: space-between;
+    margin: 0 10px;
 }
 
 .footer-title {
@@ -132,8 +136,28 @@ footer {
     align-items: flex-end;
 }
 
+.rosa {
+    background-color: pink;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+}
+
 @media (max-width:1530px) {
     article {
+        width: 90%;
+    }
+    .imagen-grande {
+        min-width: none;
         width: 90%;
     }
 }
@@ -142,10 +166,6 @@ footer {
     header {
         flex-direction: column;
         align-items: center;
-    }
-    .formulario {
-        display: flex;
-        flex-direction: row;
     }
     footer {
         flex-direction: column;
@@ -158,31 +178,32 @@ footer {
         margin-left: 15px;
     }
     .footer-title {
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }
 
 @media (max-width:992px) {
-    .footer-contacto {
-        flex-direction: column;
-    }
     header {
         flex-direction: column;
     }
     .header-title {
         flex-direction: row;
         width: 100%;
-        ;
     }
     main {
-        width: 80%;
-        margin: 10px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-aside {
+        width: 100%;
     }
     .publi1 {
         display: none;
     }
     .contenido-principal {
         flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
     }
     nav {
         width: 100%;
@@ -197,8 +218,17 @@ footer {
         display: flex;
         flex-direction: row;
     }
+    .footer-contacto {
+        flex-direction: column;
+    }
+    .formulario {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
 
+
+/*
 @media (max-width:768px) {
     .footer-title {
         flex-direction: column;
@@ -211,4 +241,4 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
-}
+}*/
