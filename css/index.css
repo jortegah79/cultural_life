@@ -23,8 +23,8 @@
       border: 2px solid #333;
   }
   
-  .login {
-      min-height: 60vh;
+  main {
+      min-height: 75vh;
   }
   
   @media (min-width:992px) {
