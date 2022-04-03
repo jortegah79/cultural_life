@@ -11,6 +11,22 @@
       display: flex;
   }
   
+  .rosa {
+      border: 5px solid pink;
+  }
+  
+  .azul {
+      border: 5px solid blue;
+  }
+  
+  #form {
+      border: 2px solid #333;
+  }
+  
+  .login {
+      min-height: 60vh;
+  }
+  
   @media (min-width:992px) {
       .publi2 {
           display: none;
