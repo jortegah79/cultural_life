@@ -3,6 +3,10 @@
       margin: 0;
   }
   
+  header {
+      box-shadow: 1px 2px 5px 1px #333;
+  }
+  
   .publi1 {
       display: none;
   }

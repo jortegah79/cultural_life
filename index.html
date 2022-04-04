@@ -6,6 +6,9 @@
     <title>Juan Ortega Herrerías</title>
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400&family=Gelasio:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/guia_estils.css">
     <script>
         alert("Soc Juan Ortega Herrerías");
@@ -13,8 +16,9 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header class="row colorPrincipal align-items-center ">
+    <!-- Header -->
+    <header class="container-fluid">
+        <div class="row colorPrincipal align-items-center ">
             <div class="col-12 col-md-8 col-lg-6 col-xl-4">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-1">
@@ -55,15 +59,14 @@
                     </li>
                 </ul>
             </div>
-        </header>
-    </div>
-
-
+        </div>
+    </header>
+    <!-- Contenido principal de la página -->
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col-12 col-lg-4 col-xl-3">
                 <nav class="row">
-                    <div class="col-12  text-center">
+                    <div class="offset-3 col-6 offset-sm-4 col-sm-4 offset-lg-1 col-lg-12 text-center">
                         <form class="formulario row" action="./contenido/resultados.html">
                             <input type="text" class="borde-colorPrincipal col" placeholder="Introduce búsqueda" />
                             <input type="submit" class="input-button col" value="Buscar" />
@@ -83,8 +86,8 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="publi1 col-12 col-lg-12 order-2 order-lg-0 mt-4">
-                    <aside class="row container-fluid">
+                <aside class="publi1 col-12 col-lg-12 order-2 order-lg-0 mt-4">
+                    <div class="row container-fluid">
                         <div class="col col-lg-12">
                             <img class="img-fluid" src="./imagenes/como-hacer-un-banner.png" alt="Esto es un banner publicitario" />
                         </div>
@@ -94,8 +97,8 @@
                         <div class="col col-lg-12">
                             <img class="img-fluid" src="./imagenes/como-hacer-un-banner.png" alt="Esto es un banner publicitario" />
                         </div>
-                    </aside>
-                </div>
+                    </div>
+                </aside>
             </div>
             <main class="col-12 col-lg-8 col-xl-9 ">
                 <div class="text-center mb-5">
@@ -152,8 +155,9 @@
                     </article>
                 </div>
             </main>
-            <div class="publi2 col-12 col-lg-12 order-lg-0">
-                <aside class=" row container-fluid">
+            <!-- Footer -->
+            <aside class="publi2 col-12 col-lg-12 order-lg-0">
+                <div class=" row container-fluid">
                     <div class="col">
                         <img class="img-fluid" src="./imagenes/como-hacer-un-banner.png" alt="Esto es un banner publicitario" />
                     </div>
@@ -163,13 +167,13 @@
                     <div class="col">
                         <img class="img-fluid" src="./imagenes/como-hacer-un-banner.png" alt="Esto es un banner publicitario" />
                     </div>
-                </aside>
-            </div>
+                </div>
+            </aside>
         </div>
     </div>
 
-    <div class="container-fluid colorSecundario ">
-        <footer class="row mt-5 align-items-xl-center">
+    <footer class="container-fluid colorSecundario ">
+        <div class="row mt-5 align-items-xl-center">
             <div class="col-12 col-md-4 col-lg-3 col-xl-2">
                 <h3>Mantente informado...</h3>
                 <ul class="list-inline ">
@@ -201,8 +205,8 @@
                     <a href="# ">Condiciones de uso</a>
                 </p>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
 </body>
 
