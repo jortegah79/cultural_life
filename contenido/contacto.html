@@ -22,12 +22,13 @@
             <div class="col-12 col-md-8 col-lg-6 col-xl-4">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-1">
-                        <img class="web-icono" src="../imagenes/mascaras.png" alt="Icono
+                        <img class="web-icono d-none d-lg-flex" src="../imagenes/mascaras.png" alt="Icono
                                 de cultural life" />
                     </div>
                     <div class="col-10 col-lg-10">
                         <h1>CULTURAL LIFE</h1>
-                        <h2>Nuestra vida es la cultura.</h2>
+                        <h2 class="d-none d-lg-flex">Nuestra vida es la cultura.
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -64,19 +65,21 @@
 
     <!-- MAIN -->
     <main class="container-fluid row">
-        <div class="col-12  offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-5 col-xl-5 offset-xl-4 text-center">
+        <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 mt-5
+                col-xl-5 offset-xl-4 text-center">
             <h1>CONTACTANOS</h1>
-            <form action="../index.html" id="form" class="col-12  m-auto">
+            <form action="../index.html" id="form" class="col-12 m-auto">
                 <div class="datos_personales row">
                     <div class="col-10 m-auto">
                         <h3>Datos Personales</h3>
                         <div class="row text-start p-3
                                 justify-content-between">
-                            <label class="col-4">Nombre:</label>
-                            <input class="col-7 " type="text" placeholder="Escribe tu nombre..." />
-                            <label class=" col-4">Email:</label>
-                            <input class="col-7" type="email" placeholder="Escribe tu email..." />
-                            <textarea class="col-12" rows="10" placeholder="Comentanos lo que necesites..."></textarea>
+                            <label class="col-12 col-sm-4">Nombre:</label>
+                            <input class="col-12 col-sm-8" type="text" placeholder="Escribe tu nombre..." />
+                            <label class="col-12 col-sm-4">Email:</label>
+                            <input class="col-12 col-sm-8" type="email" placeholder="Escribe tu email..." />
+                            <label class="col-12 col-sm-4">Comentarios:</label>
+                            <textarea class="col-12 col-sm-8" rows="10" placeholder="Comentanos lo que necesites..."></textarea>
                         </div>
                         <input type="submit" class="input-button" />
                     </div>
@@ -106,26 +109,25 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-12 col-md-8 col-lg-6 col-xl-6">
-                <div class="container row align-items-center">
-                    <div class="col">
-                        <img class="icono-mediano" src="../imagenes/mascaras.png" alt="Icono
-                                de cultural life" />
-                    </div>
-                    <div class="col-9">
-                        <h2>CULTURAL LIFE</h2>
-                        <h3>Nuestra vida es la cultura.</h3>
+            <div class="d-none d-md-flex col-md-8 col-lg-6 col-xl-6" ">
+                    <div class="container row align-items-center ">
+                        <div class="col ">
+                            <img class="icono-mediano "src="../imagenes/mascaras.png "alt="Icono de cultural life "/>
+                        </div>
+                        <div class="col-9 ">
+                            <h2>CULTURAL LIFE</h2>
+                            <h3>Nuestra vida es la cultura.</h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 text-end col-xl-4">
+                <div class="col-12 text-end col-xl-4 ">
 
-                <p>Te informamos de los términos legales y nuestras
-                    <a href="#">Condiciones de uso</a>
-                </p>
+                    <p>Te informamos de los términos legales y nuestras
+                        <a href="# ">Condiciones de uso</a>
+                    </p>
+                </div>
             </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 
 </html>

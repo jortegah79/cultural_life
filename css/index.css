@@ -7,14 +7,6 @@
       box-shadow: 1px 2px 5px 1px #333;
   }
   
-  .publi1 {
-      display: none;
-  }
-  
-  .publi2 {
-      display: flex;
-  }
-  
   .rosa {
       border: 5px solid pink;
   }
@@ -29,13 +21,4 @@
   
   main {
       min-height: 75vh;
-  }
-  
-  @media (min-width:992px) {
-      .publi2 {
-          display: none;
-      }
-      .publi1 {
-          display: flex;
-      }
   }
