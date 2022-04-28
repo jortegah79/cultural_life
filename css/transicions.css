@@ -1,0 +1,35 @@
+#ofertas {
+    transition: color 3s, background 3s, font-size 3s;
+}
+
+#ofertas:hover {
+    font-size: 3em;
+    color: #6699dd;
+    background: #eeeeee;
+    border-bottom: 5px dotted #6699dd;
+}
+
+.img-oferta {
+    width: 35%;
+    transition: transform 3s;
+}
+
+.txt-oferta {
+    width: 35%;
+}
+
+.ofer1 {
+    transform: translateX(-100%);
+}
+
+.ofer2 {
+    transform: translateX(100%);
+}
+
+.ofer1:hover {
+    transform: translateX(0%);
+}
+
+.ofer2:hover {
+    transform: translatex(0);
+}
