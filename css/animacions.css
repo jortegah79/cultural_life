@@ -1,67 +1,67 @@
-#titulo-uh {
-    border: 4px solid red;
-    text-align: center;
-    border-radius: 40%;
-    width: 40%;
-    background: #6699dd;
-    animation-name: oferta;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: normal;
-}
-
-@keyframes oferta {
-    0% {
-        transform: translateX(-130%);
+    #titulo-uh {
+        border: 4px solid red;
+        text-align: center;
+        border-radius: 40%;
+        width: 60%;
+        background: #6699dd;
+        animation-name: oferta;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: normal;
     }
-    10% {
-        color: #333;
+    
+    @keyframes oferta {
+        0% {
+            transform: translateX(-100%);
+        }
+        10% {
+            color: #333;
+        }
+        20% {
+            color: red;
+        }
+        30% {
+            color: #333;
+        }
+        40% {
+            color: red;
+        }
+        50% {
+            color: #333;
+        }
+        60% {
+            color: red;
+        }
+        70% {
+            color: #333;
+        }
+        80% {
+            color: #333;
+        }
+        90% {
+            color: red;
+        }
+        100% {
+            transform: translateX(200%);
+        }
     }
-    20% {
-        color: red;
+    
+    .oferta {
+        animation-name: magia;
+        animation-duration: 5s;
+        animation-direction: initial;
+        animation-timing-function: linear;
     }
-    30% {
-        color: #333;
+    
+    @keyframes magia {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1
+        }
     }
-    40% {
-        color: red;
-    }
-    50% {
-        color: #333;
-    }
-    60% {
-        color: red;
-    }
-    70% {
-        color: #333;
-    }
-    80% {
-        color: #333;
-    }
-    90% {
-        color: red;
-    }
-    100% {
-        transform: translateX(260%);
-    }
-}
-
-.oferta {
-    animation-name: magia;
-    animation-duration: 5s;
-    animation-direction: initial;
-    animation-timing-function: linear;
-}
-
-@keyframes magia {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1
-    }
-}
