@@ -10,26 +10,14 @@
 }
 
 .img-oferta {
-    width: 35%;
-    transition: transform 3s;
+    transition: 3s;
 }
 
-.txt-oferta {
-    width: 35%;
+.img-oferta:hover {
+    transform: translateY(25vh);
 }
 
-.ofer1 {
-    transform: translateX(-100%);
-}
-
-.ofer2 {
-    transform: translateX(100%);
-}
-
-.ofer1:hover {
-    transform: translateX(0%);
-}
-
-.ofer2:hover {
-    transform: translatex(0);
+.oferta {
+    min-height: 500px;
+    height: 40vh;
 }
