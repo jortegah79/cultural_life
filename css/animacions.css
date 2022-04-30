@@ -49,7 +49,7 @@
     
     .oferta {
         animation-name: magia;
-        animation-duration: 5s;
+        animation-duration: 4s;
         animation-direction: initial;
         animation-timing-function: linear;
     }
@@ -57,11 +57,14 @@
     @keyframes magia {
         0% {
             opacity: 0;
+            transform: scale(0.2);
         }
         50% {
-            opacity: 0.5;
+            opacity: 0.4;
+            transform: scale(0.5);
         }
         100% {
-            opacity: 1
+            opacity: 1;
+            transform: scale(1);
         }
     }
