@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    let audio = new Audio("../audios/webPmix.mp3");
+    let audio = new Audio($("#audio").attr("src"));
+
     let volActual = 100;
     let mute = false;
     $("#rw").click(function() {
